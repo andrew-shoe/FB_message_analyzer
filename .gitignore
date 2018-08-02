@@ -1,2 +1,3 @@
 messages
-graphs/*.html
+*.html
+.ipynb_checkpoints
