@@ -11,6 +11,17 @@
 I recommend you install miniconda.
 https://docs.conda.io/en/latest/miniconda.html
 
+Once you've installed miniconda, navigate to the wherever you cloned this repo and run the following three commands
+```
+$ conda create --name fb --file requirements.txt
+
+$ source activate fb
+
+$ jupyter notebook facebook.ipynb
+```
+
+This should open up the jupyter noteboot. All you need to do now is just run each cell from top to bottom. There will be a cell to fill out your name and some other options.
+
 See this link for setting up a virtual environment.
 https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 
